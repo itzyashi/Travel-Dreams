@@ -1,0 +1,351 @@
+/* Mobile CSS */
+@media (max-width: 576px) {
+
+    #loader i {
+        font-size: 80px;
+    }
+
+    #topBtn {
+        padding: 0.3rem;
+        background: var(--pcolor);
+        color: var(--white);
+        font-size: 25px;
+    }
+
+    #topBtn:hover::before {
+        display: none;
+    }
+
+    #wassup-Btn a {
+        font-size: 25px;
+    }
+
+    .secondary-btn,
+    .main-btn {
+        padding: 0.6rem 1.2rem;
+    }
+
+    .secondary-btn a,
+    .main-btn a {
+        font-size: 15px;
+    }
+
+    /* Mobile-Header */
+    header {
+        padding: 0 1rem;
+    }
+
+    .hamburger {
+        display: block;
+        color: var(--pcolor);
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        position: absolute;
+        transition: all 0.3s ease;
+        right: -70vw;
+        width: 70vw;
+        top: var(--headerh);
+        background: var(--lcolor);
+    }
+
+    .menu ul {
+        flex-direction: column;
+        padding: 1.6rem;
+        gap: 1rem;
+        align-items: baseline;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    /* Mobile - Hero */
+
+    .hero {
+        height: 120vh;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 2.5rem;
+    }
+
+    .hero-content .buttons {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .cloud {
+        height: 48vh;
+        margin-top: -18vh;
+    }
+
+    /* Meta Section */
+    .meta {
+        padding: 1rem;
+        margin: 4rem 0;
+    }
+
+    .main-title {
+        font-size: 34px;
+        width: 80vw;
+    }
+
+    .meta p {
+        font-size: 14px;
+        width: 70vw;
+    }
+
+    /* Services */
+    .services {
+        padding: 7rem 1rem 1rem;
+        clear: both;
+    }
+
+    .services .main-title {
+        font-size: 32px;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .services .service-text {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0.5rem;
+        width: 90%;
+    }
+
+    .scard {
+        padding: 1.6rem 1rem;
+        flex: 1 1 100%;
+    }
+
+    /*Mobile - About + Featured */
+    .abt-feature {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 16px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .featured {
+        padding: 1rem;
+        width: 88%;
+    }
+
+    .featured img {
+        height: 12rem;
+    }
+
+    .post-title h2 {
+        font-size: 19px;
+        line-height: 1;
+    }
+
+    .post-title i {
+        width: 25px;
+        height: 25px;
+    }
+
+    .post-title h2::before {
+        display: none;
+    }
+
+    .snippet {
+        font-size: 12px;
+    }
+
+    /* Mobile - Quote */
+    .quote {
+        margin: 3rem 0;
+        padding: 4rem 2rem;
+        gap: 1rem;
+    }
+
+    .quote h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    /* Mobile - Form + Testimonials */
+    .forte {
+        flex-direction: column;
+    }
+
+    .form {
+        margin: 1rem;
+        padding: 1.6rem;
+        width: 90vw;
+    }
+
+    .testimonials {
+        margin: 2rem 0;
+        padding: 1rem;
+        width: 100vw;
+    }
+
+    .testimonial {
+        margin: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .testimonial .testi-cards p {
+        font-style: italic;
+        padding: 0;
+        max-width: 180px;
+        box-sizing: border-box;
+    }
+
+    .testimonials .profiles {
+        margin: 1rem;
+        gap: 0.5rem;
+    }
+
+    .testimonials .profiles .profile-card {
+        height: 48px;
+        width: 48px;
+    }
+
+    .active-profile {
+        border: 2px solid var(--scolor);
+    }
+
+    /* Mobile - Gallery */
+    .gallery {
+        margin: 4rem 0;
+        padding: 1rem;
+    }
+
+    .gallery h1 {
+        font-size: 25px;
+    }
+
+    .gallery-pics {
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-pics img {
+        height: 100%;
+    }
+
+    /* Mobile - Blog */
+    .blog {
+        margin: 1rem;
+    }
+
+    .blog h2 {
+        font-size: 34px;
+    }
+
+    .blog-feed {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .blog-post {
+        padding: 0 0 1rem;
+        border: 1px solid var(--pcolor);
+    }
+
+    .blog-post img {
+        height: 10rem;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .blog-post .post-title {
+        padding: 0.3rem 1rem;
+        gap: 1rem;
+    }
+
+    .blog-post .post-title h2 {
+        font-size: 19px;
+        line-height: 1.1;
+        padding: 0;
+    }
+
+    .blog-post .snippet {
+        padding: 0 1.1rem;
+        font-size: 12px;
+    }
+
+    /* Mobile - Subscription */
+    .subscription {
+        margin: 4rem 0;
+    }
+
+    .sub-content {
+        padding: 2rem;
+    }
+
+    .sub-content h1 {
+        font-size: 25px;
+    }
+
+    .sub-content i {
+        font-size: 70px;
+        right: -22px;
+    }
+
+    /* Mobile -Footer */
+    .footer-top {
+        flex-direction: column;
+        height: 36vh;
+    }
+
+    .footer-top .footer-logo {
+        padding: 0.5rem;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .footer-top .footer-info {
+        padding: 0.5rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .footer-top .footer-info li a {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-right: 0.5rem;
+        font-weight: 400;
+    }
+
+    .footer-back {
+        height: 4rem;
+    }
+
+
+}
