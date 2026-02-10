@@ -362,7 +362,7 @@ header {
 
 /* cloud cut */
 .cloud {
-    background-image: url("../assets/cloud.png");
+    background-image: url("assets/cloud.png");
     width: 100%;
     overflow-x: hidden;
     height: 70vh;
@@ -1029,6 +1029,7 @@ footer img {
     font-weight: 500;
 
 }
+
 
 
 
