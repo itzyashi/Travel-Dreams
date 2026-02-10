@@ -318,7 +318,7 @@
     /* Mobile -Footer */
     .footer-top {
         flex-direction: column;
-        height: 36vh;
+        height: 50vh;
     }
 
     .footer-top .footer-logo {
@@ -346,6 +346,7 @@
     .footer-back {
         height: 4rem;
     }
+
 
 
 }
