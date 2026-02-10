@@ -295,7 +295,7 @@ header {
 
 /* Hero */
 .hero {
-    background-image: url("../assets/hero.png");
+    background-image: url("hero.png");
     height: 140vh;
     background-size: cover;
     background-position: center;
@@ -1029,6 +1029,7 @@ footer img {
     font-weight: 500;
 
 }
+
 
 
 
