@@ -980,7 +980,7 @@ header {
 .footer-top .footer-logo {
     position: relative;
     z-index: 3;
-    width: 20vw;
+    width: 30vw;
     padding: 2rem;
 }
 
@@ -1029,5 +1029,6 @@ footer img {
     font-weight: 500;
 
 }
+
 
 
