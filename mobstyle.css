@@ -323,7 +323,7 @@
 
     .footer-top .footer-logo {
         padding: 0.5rem;
-        width: 100%;
+        width: 50%;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -350,3 +350,4 @@
 
 
 }
+
